@@ -1,6 +1,23 @@
 # Curso LangChain e LangGraph - Playlist
 
-Este repositório contém os códigos práticos do curso de LangChain e LangGraph.
+## 📖 Sobre o Projeto
+
+Este repositório contém **implementações práticas** dos conceitos apresentados na playlist [**"LangChain e LangGraph"**](https://www.youtube.com/playlist?list=PLbIBj8vQhvm09IqqLYIwLF5dGrcbJzFZc), ministrada por **Otavio Miranda**.
+
+A playlist aborda desde conceitos fundamentais até técnicas avançadas de construção de agentes de IA utilizando as bibliotecas **LangChain** e **LangGraph**.
+
+### 🎯 Propósito
+
+- 📝 Documentar o processo de aprendizado
+- 💻 Fornecer código funcional e comentado
+- 🔄 Facilitar a revisão de conceitos
+- 🚀 Servir como referência para projetos futuros
+
+### 👨‍🏫 Créditos
+
+Todo o conteúdo educacional é baseado nos ensinamentos de **[Otavio Miranda](https://github.com/luizomf)**, criador da playlist original.
+
+---
 
 ## 📚 Estrutura do Projeto
 
@@ -24,11 +41,12 @@ Cada branch representa um vídeo diferente da playlist:
 - *(adicione mais branches conforme criar novos vídeos)*
 
 ## 🚀 Como usar
+Exemplo: Clonar apenas o código do Vídeo 1
 
 1. Clone o repositório:
   ```bash
   # Exemplo: Clonar apenas o código do Vídeo 1
-  git clone -b Nivel3Desafio https://github.com/ricardocr18/rocketseatCurso_IAparaDevs.git Nivel3Desafio
+  git clone -b video001 --single-branch https://github.com/ricardocr18/cursoLangGraph_Playlist.git video001
   ```
 
 2. Mude para a branch do vídeo que deseja estudar:
