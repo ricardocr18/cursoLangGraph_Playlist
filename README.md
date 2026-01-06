@@ -26,9 +26,9 @@ Cada branch representa um vídeo diferente da playlist:
 | Branch | Descrição | Status |
 |--------|-----------|--------|
 | [`vide0001`](https://github.com/ricardocr18/cursoLangGraph_Playlist/tree/video001) | Primeiros passos com langchain | ✅ Completo |
-| [`video002`](https://github.com/ricardocr18/cursoLangGraph_Playlist/tree/video002) | LLMs Fine Tuning | ✅ Completo |
-| [`video003`](https://github.com/ricardocr18/cursoLangGraph_Playlist/tree/video003) | Agente de IA | 🚧 Em construção |
-| [`video004`]() | Prompt Engineering | 🚧 Em construção |
+| [`video002`](https://github.com/ricardocr18/cursoLangGraph_Playlist/tree/video002) | Utilizando Nodes, Edges e Graph | ✅ Completo |
+| [`video003`](https://github.com/ricardocr18/cursoLangGraph_Playlist/tree/video003) | Criando Chat Bot com memória | 🚧 Em construção |
+| [`video004`] 🚧 Em construção |
 
 
 ### Branches Disponíveis
@@ -38,10 +38,22 @@ Cada branch representa um vídeo diferente da playlist:
   - Gerenciamento de mensagens do sistema e do usuário
   - Loop de conversação interativo
 
-- *(adicione mais branches conforme criar novos vídeos)*
+- **`video002`** - Utilizando Nodes, edges e conditional edges e visualização do graph
+    - Criação de grafos de estado com `StateGraph`
+    - Nodes (A, B, C) e conditional edges
+    - Funções de redução com `operator.add`
+    - `TypedDict` vs `@dataclass`
+    - Visualização com Mermaid
+
+- **`video003`** - Integração LLM + LangGraph
+    - Invocação de LLM dentro de nodes
+    - `add_messages` para histórico
+    - `HumanMessage` e `AIMessage`
+    - Formatação com `rich`
+    - Imutabilidade do estado
 
 ## 🚀 Como usar
-Exemplo de como Clonar apenas o código do Vídeo 1
+Exemplo de como Clonar apenas o código do Vídeo 1    
 
 1. Clone o repositório:
   ```bash
