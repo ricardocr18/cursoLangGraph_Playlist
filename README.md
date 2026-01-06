@@ -8,11 +8,10 @@ Cada branch representa um vídeo diferente da playlist:
 
 | Branch | Descrição | Status |
 |--------|-----------|--------|
-| [`vide0001`](https://github.com/ricardocr18/rocketseatCurso_IAparaDevs/tree/Nivel3Desafio) | LLMs com RAG | ✅ Completo |
-| [`Nivel4Desafio`](https://github.com/ricardocr18/rocketseatCurso_IAparaDevs/tree/Nivel4Desafio) | LLMs Fine Tuning | ✅ Completo |
-| [`Nivel5Desafio`](https://github.com/ricardocr18/rocketseatCurso_IAparaDevs/tree/Nivel5Desafio) | Agente de IA | ✅ Completo |
-| [`Nivel6Desafio`](https://github.com/ricardocr18/rocketseatCurso_IAparaDevs/tree/Nivel6Desafio) | Prompt Engineering | ✅ Completo |
-
+| [`vide0001`](https://github.com/ricardocr18/cursoLangGraph_Playlist/tree/video001) | Primeiros passos com langchain | ✅ Completo |
+| [`video002`](https://github.com/ricardocr18/cursoLangGraph_Playlist/tree/video002) | LLMs Fine Tuning | ✅ Completo |
+| [`video003`](https://github.com/ricardocr18/cursoLangGraph_Playlist/tree/video003) | Agente de IA | 🚧 Em construção |
+| [`video004`](https://github.com/ricardocr18/cursoLangGraph_Playlist/tree/video004) | Prompt Engineering | 🚧 Em construção |
 
 
 ### Branches Disponíveis
@@ -27,10 +26,10 @@ Cada branch representa um vídeo diferente da playlist:
 ## 🚀 Como usar
 
 1. Clone o repositório:
-   ```bash
-   git clone https://github.com/ricardocr18/cursoLangGraph_Playlist.git
-   cd cursoLangGraph_Playlist
-   ```
+  ```bash
+  # Exemplo: Clonar apenas o código do Vídeo 1
+  git clone -b Nivel3Desafio https://github.com/ricardocr18/rocketseatCurso_IAparaDevs.git Nivel3Desafio
+  ```
 
 2. Mude para a branch do vídeo que deseja estudar:
    ```bash
