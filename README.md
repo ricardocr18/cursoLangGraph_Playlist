@@ -28,7 +28,7 @@ Cada branch representa um vídeo diferente da playlist:
 | [`vide0001`](https://github.com/ricardocr18/cursoLangGraph_Playlist/tree/video001) | Primeiros passos com langchain | ✅ Completo |
 | [`video002`](https://github.com/ricardocr18/cursoLangGraph_Playlist/tree/video002) | LLMs Fine Tuning | ✅ Completo |
 | [`video003`](https://github.com/ricardocr18/cursoLangGraph_Playlist/tree/video003) | Agente de IA | 🚧 Em construção |
-| [`video004`](https://github.com/ricardocr18/cursoLangGraph_Playlist/tree/video004) | Prompt Engineering | 🚧 Em construção |
+| [`video004`]() | Prompt Engineering | 🚧 Em construção |
 
 
 ### Branches Disponíveis
@@ -41,7 +41,7 @@ Cada branch representa um vídeo diferente da playlist:
 - *(adicione mais branches conforme criar novos vídeos)*
 
 ## 🚀 Como usar
-Exemplo: Clonar apenas o código do Vídeo 1
+Exemplo de como Clonar apenas o código do Vídeo 1
 
 1. Clone o repositório:
   ```bash
@@ -81,15 +81,12 @@ Exemplo: Clonar apenas o código do Vídeo 1
 
 ## 🔗 Links Úteis
 
-- [Playlist no YouTube](https://www.youtube.com/playlist?list=PLbIBj8vQhvm09IqqLYIwLF5dGrcbJzFZc)
 - [Documentação LangChain](https://docs.langchain.com/)
 - [Documentação LangGraph](https://langchain-ai.github.io/langgraph/)
 
 ## 📝 Notas
 
-- **Nunca commite** arquivos `.env` com suas chaves de API
 - Cada branch é independente e contém o código completo do respectivo vídeo
-- Para sugestões ou dúvidas, abra uma issue
 
 ## 👤 Autor
 
