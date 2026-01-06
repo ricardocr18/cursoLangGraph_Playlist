@@ -6,6 +6,15 @@ Este repositório contém os códigos práticos do curso de LangChain e LangGrap
 
 Cada branch representa um vídeo diferente da playlist:
 
+| Branch | Descrição | Status |
+|--------|-----------|--------|
+| [`vide0001`](https://github.com/ricardocr18/rocketseatCurso_IAparaDevs/tree/Nivel3Desafio) | LLMs com RAG | ✅ Completo |
+| [`Nivel4Desafio`](https://github.com/ricardocr18/rocketseatCurso_IAparaDevs/tree/Nivel4Desafio) | LLMs Fine Tuning | ✅ Completo |
+| [`Nivel5Desafio`](https://github.com/ricardocr18/rocketseatCurso_IAparaDevs/tree/Nivel5Desafio) | Agente de IA | ✅ Completo |
+| [`Nivel6Desafio`](https://github.com/ricardocr18/rocketseatCurso_IAparaDevs/tree/Nivel6Desafio) | Prompt Engineering | ✅ Completo |
+
+
+
 ### Branches Disponíveis
 
 - **`video001`** - Introdução ao LangChain: ChatBot básico com histórico de conversa
