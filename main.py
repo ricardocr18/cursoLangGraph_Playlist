@@ -39,13 +39,26 @@ builder.add_edge("call_llm", "__end__")
 graph = builder.compile()
 
 if __name__ == "__main__":
-    # 6 - Executar o grafo
-    user_input = "Olá, meu nome é Raquel"
-    human_message = HumanMessage(user_input)
-    result = graph.invoke({"messages": [human_message]})
+    current_messages: Sequence[BaseMessage] = []
 
-    print(result["messages"][1].content)
-    print(Markdown("---"))
+    while True:
+        # 6 - Executar o grafo
+        user_input = input("Digite sua mensage: ")
+        print(Markdown("---"))
+
+        if user_input.lower() in ["q", "quit", "exit"]:
+            print("Encerrando o programa. 😉")
+            print(Markdown("---"))
+            break
+        
+        human_message = HumanMessage(user_input)
+        current_messages = [*current_messages, human_message]
+        
+        result = graph.invoke({"messages": current_messages})
+        current_messages = result["messages"]
+
+        print(Markdown(str(result["messages"][-1].content)))
+        print(Markdown("---"))
 
     # Converte cada mensagem para dicionário, modo debug com mais exclarecimentos
     # result_json = {
