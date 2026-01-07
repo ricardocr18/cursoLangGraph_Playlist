@@ -27,9 +27,9 @@ Cada branch representa um vídeo diferente da playlist:
 |--------|-----------|--------|
 | [`vide0001`](https://github.com/ricardocr18/cursoLangGraph_Playlist/tree/video001) | Primeiros passos com langchain | ✅ Completo |
 | [`video002`](https://github.com/ricardocr18/cursoLangGraph_Playlist/tree/video002) | Utilizando Nodes, Edges e Graph | ✅ Completo |
-| [`video003`](https://github.com/ricardocr18/cursoLangGraph_Playlist/tree/video003) | Criando Chat Bot com memória | 🚧 Em construção |
-| [`video004`] | Utilizando tools |🚧 Em construção |
-
+| [`video003`](https://github.com/ricardocr18/cursoLangGraph_Playlist/tree/video003) | Criando Chat Bot com memória | ✅ Completo |
+| [`video004`](https://github.com/ricardocr18/cursoLangGraph_Playlist/tree/video004) | Utilizando tools |🚧 Em construção |
+| [`video005`] | Utilizando tools |🚧 Em construção |
 
 ### Branches Disponíveis
 
