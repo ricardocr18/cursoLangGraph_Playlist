@@ -54,12 +54,12 @@ Cada branch representa um vídeo diferente da playlist:
  
 - **`video004`** - Criando a primeira tool
     - Criação de ferramentas personalizadas com `@tool` decorator
-  ◦ Binding de ferramentas ao LLM com `bind_tools()`
-  ◦ Processamento de `tool_calls` em AIMessage
-  ◦ Criação e envio de `ToolMessage` com resultados
-  ◦ Tratamento de erros em chamadas de ferramentas
-  ◦ Exemplo prático: ferramenta de multiplicação
-  ◦ Loop completo: LLM → Tool Call → Tool Execution → LLM Response
+    - Binding de ferramentas ao LLM com `bind_tools()`
+    - Processamento de `tool_calls` em AIMessage
+    - Criação e envio de `ToolMessage` com resultados
+    - Tratamento de erros em chamadas de ferramentas
+    - Exemplo prático: ferramenta de multiplicação
+    - Loop completo: LLM → Tool Call → Tool Execution → LLM Response
 
 ## 🚀 Como usar
 Exemplo de como Clonar apenas o código do Vídeo 1    
